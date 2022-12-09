@@ -1,0 +1,82 @@
+body {
+    background-image: url(../assets/img/park.jpg);
+    /* background-size: cover; */
+}
+
+a {
+    color: darkblue;
+}
+
+a:hover {
+    text-decoration-style: dashed;
+}
+
+a:visited {
+    color:darkmagenta;
+}
+
+ul {
+    font-style: italic;
+}
+
+.thick {
+    font-size: x-large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bigger {
+    font-size: x-large;
+    font-weight: 200;
+}
+
+.common {
+    font-size: large;
+}
+
+.smaller {
+    font-size: medium;
+    font-style: italic;
+    color: rgb(43, 43, 43);
+}
+
+.navtab {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 38px;
+    background-color: slategrey;
+    position: fixed;
+    padding: 5px;
+    padding-left: 10px;
+    position: fixed;
+    z-index: 2;
+}
+
+.top {
+    top: 0px;
+    position: absolute;
+}
+
+.header {
+    top: 38px;
+    position: absolute;
+    z-index: 1;
+}
+
+.mainbody {
+    top: 150px;
+    z-index: 1;
+    position: absolute;
+    padding: 5px;
+    padding-bottom: 40px; 
+}
+
+.footer {
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color:slategrey;
+    position: fixed;
+    z-index: 2;
+    padding: 5px;
+}
